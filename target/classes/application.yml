@@ -1,0 +1,4 @@
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  path: /Users/zhaohao/Downloads/git project/WeChatOrderingSystem/log
