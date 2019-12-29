@@ -1,0 +1,18 @@
+2019-12-28 19:03:12.808  WARN 47785 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-28 19:03:12.825  INFO 47785 --- [main] com.imooc.service.LoggerTest             : Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 47785 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+2019-12-28 19:03:12.826  INFO 47785 --- [main] com.imooc.service.LoggerTest             : No active profile set, falling back to default profiles: default
+2019-12-28 19:03:12.871  INFO 47785 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53ce1329: startup date [Sat Dec 28 19:03:12 PST 2019]; root of context hierarchy
+2019-12-28 19:03:12.976  INFO 47785 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-12-28 19:03:13.452  INFO 47785 --- [main] com.imooc.service.LoggerTest             : Started LoggerTest in 0.954 seconds (JVM running for 1.566)
+2019-12-28 19:03:13.482  INFO 47785 --- [main] com.imooc.service.LoggerTest             : info...
+2019-12-28 19:03:13.482  INFO 47785 --- [main] com.imooc.service.LoggerTest             : name:imooc,password:123456
+2019-12-28 19:03:13.484 ERROR 47785 --- [main] com.imooc.service.LoggerTest             : error...
+2019-12-28 19:03:13.487  INFO 47785 --- [Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@53ce1329: startup date [Sat Dec 28 19:03:12 PST 2019]; root of context hierarchy

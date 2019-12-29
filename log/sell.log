@@ -1,0 +1,56 @@
+2019-12-28 19:04:03.456  WARN 47798 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-28 19:04:03.473  INFO 47798 --- [main] com.imooc.service.LoggerTest             : Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 47798 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+2019-12-28 19:04:03.473  INFO 47798 --- [main] com.imooc.service.LoggerTest             : No active profile set, falling back to default profiles: default
+2019-12-28 19:04:03.525  INFO 47798 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53ce1329: startup date [Sat Dec 28 19:04:03 PST 2019]; root of context hierarchy
+2019-12-28 19:04:03.638  INFO 47798 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-12-28 19:04:04.071  INFO 47798 --- [main] com.imooc.service.LoggerTest             : Started LoggerTest in 1.035 seconds (JVM running for 1.585)
+2019-12-28 19:04:04.102  INFO 47798 --- [main] com.imooc.service.LoggerTest             : info...
+2019-12-28 19:04:04.102  INFO 47798 --- [main] com.imooc.service.LoggerTest             : name:imooc,password:123456
+2019-12-28 19:04:04.103 ERROR 47798 --- [main] com.imooc.service.LoggerTest             : error...
+2019-12-28 19:04:04.106  INFO 47798 --- [Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@53ce1329: startup date [Sat Dec 28 19:04:03 PST 2019]; root of context hierarchy
+2019-12-28 19:05:34.242  WARN 47817 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-28 19:05:34.261  INFO 47817 --- [main] com.imooc.service.LoggerTest             : Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 47817 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+2019-12-28 19:05:34.261  INFO 47817 --- [main] com.imooc.service.LoggerTest             : No active profile set, falling back to default profiles: default
+2019-12-28 19:05:34.301  INFO 47817 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4dbb42b7: startup date [Sat Dec 28 19:05:34 PST 2019]; root of context hierarchy
+2019-12-28 19:05:34.396  INFO 47817 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-12-28 19:05:34.868  INFO 47817 --- [main] com.imooc.service.LoggerTest             : Started LoggerTest in 0.889 seconds (JVM running for 1.432)
+2019-12-28 19:05:34.899  INFO 47817 --- [main] com.imooc.service.LoggerTest             : info...
+2019-12-28 19:05:34.899  INFO 47817 --- [main] com.imooc.service.LoggerTest             : name:imooc,password:123456
+2019-12-28 19:05:34.900 ERROR 47817 --- [main] com.imooc.service.LoggerTest             : error...
+2019-12-28 19:05:34.904  INFO 47817 --- [Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@4dbb42b7: startup date [Sat Dec 28 19:05:34 PST 2019]; root of context hierarchy
+2019-12-28 19:06:18.044  WARN 47822 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2019-12-28 19:06:18.060  INFO 47822 --- [main] com.imooc.service.LoggerTest             : Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 47822 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+2019-12-28 19:06:18.060 DEBUG 47822 --- [main] com.imooc.service.LoggerTest             : Running with Spring Boot v1.5.20.RELEASE, Spring v4.3.23.RELEASE
+2019-12-28 19:06:18.061  INFO 47822 --- [main] com.imooc.service.LoggerTest             : No active profile set, falling back to default profiles: default
+2019-12-28 19:06:18.112  INFO 47822 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@67f639d3: startup date [Sat Dec 28 19:06:18 PST 2019]; root of context hierarchy
+2019-12-28 19:06:18.199  INFO 47822 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-12-28 19:06:18.629  INFO 47822 --- [main] com.imooc.service.LoggerTest             : Started LoggerTest in 0.858 seconds (JVM running for 1.386)
+2019-12-28 19:06:18.658 DEBUG 47822 --- [main] com.imooc.service.LoggerTest             : debug...
+2019-12-28 19:06:18.658  INFO 47822 --- [main] com.imooc.service.LoggerTest             : info...
+2019-12-28 19:06:18.659  INFO 47822 --- [main] com.imooc.service.LoggerTest             : name:imooc,password:123456
+2019-12-28 19:06:18.660 ERROR 47822 --- [main] com.imooc.service.LoggerTest             : error...
+2019-12-28 19:06:18.662  INFO 47822 --- [Thread-1] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@67f639d3: startup date [Sat Dec 28 19:06:18 PST 2019]; root of context hierarchy

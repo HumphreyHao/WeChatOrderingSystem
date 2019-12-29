@@ -1,0 +1,88 @@
+
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 50431 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:32:23 PST 2019]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+HV000001: Hibernate Validator 5.3.6.Final
+Started LoggerTest in 0.942 seconds (JVM running for 1.553)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:32:23 PST 2019]; root of context hierarchy
+
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 50448 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:35:01 PST 2019]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+HV000001: Hibernate Validator 5.3.6.Final
+Started LoggerTest in 1.017 seconds (JVM running for 1.55)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:35:01 PST 2019]; root of context hierarchy
+
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 50478 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:39:50 PST 2019]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+HV000001: Hibernate Validator 5.3.6.Final
+Started LoggerTest in 0.943 seconds (JVM running for 1.565)
+info...
+name:imooc,password:123456
+error...
+Closing org.springframework.web.context.support.GenericWebApplicationContext@3012646b: startup date [Sun Dec 29 10:39:50 PST 2019]; root of context hierarchy
+
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 50536 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5677323c: startup date [Sun Dec 29 10:44:21 PST 2019]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+HV000001: Hibernate Validator 5.3.6.Final
+Started LoggerTest in 0.935 seconds (JVM running for 1.451)
+info...
+name:imooc,password:123456
+error...
+Closing org.springframework.web.context.support.GenericWebApplicationContext@5677323c: startup date [Sun Dec 29 10:44:21 PST 2019]; root of context hierarchy
+
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/zhaohao/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/Users/zhaohao/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+Starting LoggerTest on zhaohaodeMacBook-Pro.local with PID 50598 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@51c668e3: startup date [Sun Dec 29 10:47:29 PST 2019]; root of context hierarchy
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+HV000001: Hibernate Validator 5.3.6.Final
+Started LoggerTest in 1.038 seconds (JVM running for 1.659)
+info...
+name:imooc,password:123456
+Closing org.springframework.web.context.support.GenericWebApplicationContext@51c668e3: startup date [Sun Dec 29 10:47:29 PST 2019]; root of context hierarchy

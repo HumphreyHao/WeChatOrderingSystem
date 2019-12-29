@@ -13,16 +13,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 @Slf4j
 public class LoggerTest {
 
-    //private final Logger logger = LoggerFactory.getLogger(LoggerTest.class);
+    private final Logger logger = LoggerFactory.getLogger(LoggerTest.class);
 
     @Test
     public void test1() {
         String name = "imooc";
         String password = "123456";
-        log.debug("debug...");
-        log.info("info...");
-        log.info("name:{},password:{}",name,password);
-        log.error("error...");
+        logger.debug("debug...");
+        logger.info("info...");
+        logger.info("name:{},password:{}",name,password);
+        logger.error("error...");
 
     }
 }
