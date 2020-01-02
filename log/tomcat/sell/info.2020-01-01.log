@@ -1,302 +1,13 @@
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52289 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+Starting OrderMasterRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63298 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
 No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@247310d0: startup date [Mon Dec 30 12:24:30 PST 2019]; root of context hierarchy
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:39:53 PST 2020]; root of context hierarchy
 HV000001: Hibernate Validator 5.3.5.Final
 No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52326 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:25:53 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:25:53 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:25:53 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.541 seconds (JVM running for 5.087)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:25:53 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52352 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:27:10 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:27:10 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:27:10 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.451 seconds (JVM running for 5.052)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:27:10 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52392 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:30:42 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:30:42 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:30:42 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.974 seconds (JVM running for 5.614)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:30:42 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52396 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:31:10 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:31:10 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:31:10 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.481 seconds (JVM running for 5.078)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:31:10 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52409 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:34:33 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:34:33 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:34:33 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.763 seconds (JVM running for 5.375)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:34:33 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52516 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:05 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-HHH000182: No default (no-argument) constructor for class: com.imooc.dataobject.ProductCategory (class must be instantiated by Interceptor)
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:05 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:05 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.302 seconds (JVM running for 4.882)
-SQL Error: 1062, SQLState: 23000
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:05 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52521 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:32 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-HHH000182: No default (no-argument) constructor for class: com.imooc.dataobject.ProductCategory (class must be instantiated by Interceptor)
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:32 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:32 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 4.327 seconds (JVM running for 4.955)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 12:56:32 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 52548 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@242aa8d9: startup date [Mon Dec 30 13:07:22 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@242aa8d9: startup date [Mon Dec 30 13:07:22 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@242aa8d9: startup date [Mon Dec 30 13:07:22 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductCategoryRepositoryTest in 5.325 seconds (JVM running for 6.127)
-HHH000397: Using ASTQueryTranslatorFactory
-Starting CategoryServiceImplTest on zhaohaodeMacBook-Pro.local with PID 53042 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@cecf639: startup date [Mon Dec 30 16:49:42 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@cecf639: startup date [Mon Dec 30 16:49:42 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@cecf639: startup date [Mon Dec 30 16:49:42 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started CategoryServiceImplTest in 4.7 seconds (JVM running for 5.27)
-HHH000397: Using ASTQueryTranslatorFactory
-Closing org.springframework.web.context.support.GenericWebApplicationContext@cecf639: startup date [Mon Dec 30 16:49:42 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductInfoRepositoryTest on zhaohaodeMacBook-Pro.local with PID 53135 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:10:02 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
 JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 Building JPA container EntityManagerFactory for persistence unit 'default'
@@ -309,186 +20,741 @@ HHH000021: Bytecode provider name : javassist
 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productInfoRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.imooc.dataobject.ProductInfo
-Closing JPA EntityManagerFactory for persistence unit 'default'
-
-
-Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
-Starting ProductInfoRepositoryTest on zhaohaodeMacBook-Pro.local with PID 53140 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:10:18 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productInfoRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.imooc.dataobject.ProductInfo
-Closing JPA EntityManagerFactory for persistence unit 'default'
-
-
-Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
-Starting ProductCategoryRepositoryTest on zhaohaodeMacBook-Pro.local with PID 53145 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@17fc391b: startup date [Mon Dec 30 17:11:06 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productInfoRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.imooc.dataobject.ProductInfo
-Closing JPA EntityManagerFactory for persistence unit 'default'
-
-
-Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
-Starting ProductInfoRepositoryTest on zhaohaodeMacBook-Pro.local with PID 53164 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:13:08 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:13:08 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:13:08 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductInfoRepositoryTest in 4.378 seconds (JVM running for 4.909)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@1033576a: startup date [Mon Dec 30 17:13:08 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductServiceImplTest on zhaohaodeMacBook-Pro.local with PID 53303 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b247367: startup date [Mon Dec 30 17:34:47 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b247367: startup date [Mon Dec 30 17:34:47 PST 2019]; root of context hierarchy
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@5b247367: startup date [Mon Dec 30 17:34:47 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductServiceImplTest in 4.597 seconds (JVM running for 5.217)
-HHH000397: Using ASTQueryTranslatorFactory
-Closing org.springframework.web.context.support.GenericWebApplicationContext@5b247367: startup date [Mon Dec 30 17:34:47 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Closing org.springframework.web.context.support.GenericWebApplicationContext@242aa8d9: startup date [Mon Dec 30 13:07:22 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53729 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:17:49 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1251 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53740 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:18:53 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1224 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:18:53 PST 2019]; root of context hierarchy
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:39:53 PST 2020]; root of context hierarchy
 Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:18:53 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:39:53 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterRepositoryTest in 5.035 seconds (JVM running for 5.7)
+SQL Error: 1048, SQLState: 23000
+HHH000010: On release of batch it still contained JDBC statements
+Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:39:53 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63315 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:40:33 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:40:33 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:40:33 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterRepositoryTest in 4.418 seconds (JVM running for 5.033)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:40:33 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63321 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:41:28 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:41:28 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:41:28 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterRepositoryTest in 4.923 seconds (JVM running for 5.538)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:41:28 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderMasterRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63365 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@43df23d3: startup date [Wed Jan 01 11:48:07 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@43df23d3: startup date [Wed Jan 01 11:48:07 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@43df23d3: startup date [Wed Jan 01 11:48:07 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderMasterRepositoryTest in 5.545 seconds (JVM running for 6.151)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@43df23d3: startup date [Wed Jan 01 11:48:07 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63379 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:48:37 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:48:37 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:48:37 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailRepositoryTest in 4.794 seconds (JVM running for 5.357)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:48:37 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63393 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:54:59 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:54:59 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:54:59 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailRepositoryTest in 4.757 seconds (JVM running for 5.354)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@359df09a: startup date [Wed Jan 01 11:54:59 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderDetailRepositoryTest on zhaohaodeMacBook-Pro.local with PID 63428 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@609e8838: startup date [Wed Jan 01 11:59:25 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@609e8838: startup date [Wed Jan 01 11:59:25 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@609e8838: startup date [Wed Jan 01 11:59:25 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderDetailRepositoryTest in 5.221 seconds (JVM running for 5.862)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@609e8838: startup date [Wed Jan 01 11:59:25 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 63895 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Wed Jan 01 14:36:08 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Wed Jan 01 14:36:08 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Wed Jan 01 14:36:08 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 5.259 seconds (JVM running for 5.925)
+【创建订单】result=OrderDTO(orderId=1577918173326481477, buyerName=廖师兄, buyerPhone=123456789012, buyerAddress=幕课网, buyerOpenid=1101110, orderAmount=null, orderStatus=null, payStatus=null, orderDetailList=[OrderDetail(detailId=1577918173393744149, orderId=1577918173326481477, productId=1234568, productName=芒果冰, productPrice=20.00, productQuantity=1, productIcon=http://xxxxx.jpg), OrderDetail(detailId=1577918173411326133, orderId=1577918173326481477, productId=123457, productName=皮蛋粥2, productPrice=3.20, productQuantity=2, productIcon=http://xxxxx.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@5ddeb7cb: startup date [Wed Jan 01 14:36:08 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 63939 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@24569dba: startup date [Wed Jan 01 14:50:45 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@24569dba: startup date [Wed Jan 01 14:50:45 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@24569dba: startup date [Wed Jan 01 14:50:45 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 5.183 seconds (JVM running for 5.817)
+HHH000397: Using ASTQueryTranslatorFactory
+【查询单个订单】result=OrderDTO(orderId=1577918173326481477, buyerName=廖师兄, buyerPhone=123456789012, buyerAddress=幕课网, buyerOpenid=1101110, orderAmount=26.40, orderStatus=0, payStatus=0, orderDetailList=[OrderDetail(detailId=1577918173393744149, orderId=1577918173326481477, productId=1234568, productName=芒果冰, productPrice=20.00, productQuantity=1, productIcon=http://xxxxx.jpg), OrderDetail(detailId=1577918173411326133, orderId=1577918173326481477, productId=123457, productName=皮蛋粥2, productPrice=3.20, productQuantity=2, productIcon=http://xxxxx.jpg)])
+Closing org.springframework.web.context.support.GenericWebApplicationContext@24569dba: startup date [Wed Jan 01 14:50:45 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 63989 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:00:07 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:00:07 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:00:07 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.498 seconds (JVM running for 5.056)
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:00:07 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64007 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:02:23 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:02:23 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:02:23 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.456 seconds (JVM running for 5.016)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 15:02:23 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64491 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:23:22 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:23:22 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:23:22 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 5.505 seconds (JVM running for 6.154)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:23:22 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64502 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:24:16 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:24:16 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:24:16 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 5.209 seconds (JVM running for 5.867)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:24:16 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64530 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:08 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:08 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:08 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.277 seconds (JVM running for 4.814)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:08 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64536 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:52 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:52 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:52 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.657 seconds (JVM running for 5.216)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:27:52 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64559 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:19 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:19 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:19 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.809 seconds (JVM running for 5.421)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:19 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64564 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:45 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:45 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:45 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.55 seconds (JVM running for 5.139)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:33:45 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64570 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:34:39 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:34:39 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:34:39 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.31 seconds (JVM running for 4.885)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:34:39 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64585 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:37:32 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:37:32 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:37:32 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.758 seconds (JVM running for 5.342)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:37:32 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting OrderServiceImplTest on zhaohaodeMacBook-Pro.local with PID 64593 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:38:25 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:38:25 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:38:25 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Started OrderServiceImplTest in 4.485 seconds (JVM running for 5.122)
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Wed Jan 01 20:38:25 PST 2020]; root of context hierarchy
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 64803 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:17:19 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1238 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:17:19 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:17:19 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
 ClassTemplateLoader for Spring macros added to FreeMarker configuration
 Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
 Registering beans for JMX exposure on startup
@@ -496,28 +762,83 @@ Initializing ProtocolHandler ["http-nio-8080"]
 Starting ProtocolHandler ["http-nio-8080"]
 Using a shared selector for servlet write/read
 Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.355 seconds (JVM running for 3.821)
+Started SellApplication in 3.736 seconds (JVM running for 4.381)
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:17:19 PST 2020]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 64819 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:18:15 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1188 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:18:15 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:18:15 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 3.338 seconds (JVM running for 3.766)
 Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
 FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:18:53 PST 2019]; root of context hierarchy
+Request method 'GET' not supported
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:18:15 PST 2020]; root of context hierarchy
 Unregistering JMX-exposed beans on shutdown
 Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53772 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 65009 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
 No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:21:50 PST 2019]; root of context hierarchy
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:24:48 PST 2020]; root of context hierarchy
 HV000001: Hibernate Validator 5.3.5.Final
 No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
 JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 Tomcat initialized with port(s): 8080 (http)
 Starting service Tomcat
 Starting Servlet Engine: Apache Tomcat/8.5.14
 Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1227 ms
+Root WebApplicationContext: initialization completed in 1241 ms
 Mapping servlet: 'dispatcherServlet' to [/]
 Mapping filter: 'characterEncodingFilter' to: [/*]
 Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
@@ -533,14 +854,15 @@ HHH000021: Bytecode provider name : javassist
 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:21:50 PST 2019]; root of context hierarchy
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:24:48 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
 Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:21:50 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:24:48 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
 ClassTemplateLoader for Spring macros added to FreeMarker configuration
 Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
 Registering beans for JMX exposure on startup
@@ -548,252 +870,30 @@ Initializing ProtocolHandler ["http-nio-8080"]
 Starting ProtocolHandler ["http-nio-8080"]
 Using a shared selector for servlet write/read
 Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.482 seconds (JVM running for 4.165)
-Initializing Spring FrameworkServlet 'dispatcherServlet'
-FrameworkServlet 'dispatcherServlet': initialization started
-FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:21:50 PST 2019]; root of context hierarchy
-Unregistering JMX-exposed beans on shutdown
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53816 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:31:16 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1135 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:31:16 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:31:16 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Registering beans for JMX exposure on startup
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting ProtocolHandler ["http-nio-8080"]
-Using a shared selector for servlet write/read
-Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.363 seconds (JVM running for 3.971)
-Initializing Spring FrameworkServlet 'dispatcherServlet'
-FrameworkServlet 'dispatcherServlet': initialization started
-FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:31:16 PST 2019]; root of context hierarchy
-Unregistering JMX-exposed beans on shutdown
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53902 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:58:56 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1231 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:58:56 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:58:56 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Registering beans for JMX exposure on startup
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting ProtocolHandler ["http-nio-8080"]
-Using a shared selector for servlet write/read
-Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.488 seconds (JVM running for 4.134)
-Initializing Spring FrameworkServlet 'dispatcherServlet'
-FrameworkServlet 'dispatcherServlet': initialization started
-FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
-HHH000397: Using ASTQueryTranslatorFactory
-Starting ProductServiceImplTest on zhaohaodeMacBook-Pro.local with PID 53909 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:06 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:06 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:06 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductServiceImplTest in 4.151 seconds (JVM running for 4.726)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:06 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 21:58:56 PST 2019]; root of context hierarchy
-Unregistering JMX-exposed beans on shutdown
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting ProductServiceImplTest on zhaohaodeMacBook-Pro.local with PID 53916 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:56 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:56 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:56 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductServiceImplTest in 4.567 seconds (JVM running for 5.121)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@6be968ce: startup date [Mon Dec 30 22:00:56 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53922 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:03 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1253 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:03 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:03 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Registering beans for JMX exposure on startup
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting ProtocolHandler ["http-nio-8080"]
-Using a shared selector for servlet write/read
-Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.451 seconds (JVM running for 3.894)
+Started SellApplication in 3.866 seconds (JVM running for 4.577)
 Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
 FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
-HHH000397: Using ASTQueryTranslatorFactory
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:03 PST 2019]; root of context hierarchy
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 21:24:48 PST 2020]; root of context hierarchy
 Unregistering JMX-exposed beans on shutdown
 Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53938 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 65235 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
 No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:49 PST 2019]; root of context hierarchy
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 22:10:42 PST 2020]; root of context hierarchy
 HV000001: Hibernate Validator 5.3.5.Final
 No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
 JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 Tomcat initialized with port(s): 8080 (http)
 Starting service Tomcat
 Starting Servlet Engine: Apache Tomcat/8.5.14
 Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1165 ms
+Root WebApplicationContext: initialization completed in 1262 ms
 Mapping servlet: 'dispatcherServlet' to [/]
 Mapping filter: 'characterEncodingFilter' to: [/*]
 Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
@@ -809,14 +909,16 @@ HHH000021: Bytecode provider name : javassist
 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:49 PST 2019]; root of context hierarchy
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 22:10:42 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.VO.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
 Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:49 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 22:10:42 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
 ClassTemplateLoader for Spring macros added to FreeMarker configuration
 Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
 Registering beans for JMX exposure on startup
@@ -824,62 +926,31 @@ Initializing ProtocolHandler ["http-nio-8080"]
 Starting ProtocolHandler ["http-nio-8080"]
 Using a shared selector for servlet write/read
 Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.268 seconds (JVM running for 3.685)
+Started SellApplication in 3.974 seconds (JVM running for 4.669)
 Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
-FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
 HHH000397: Using ASTQueryTranslatorFactory
-Starting ProductServiceImplTest on zhaohaodeMacBook-Pro.local with PID 53944 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7188af83: startup date [Mon Dec 30 22:02:56 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7188af83: startup date [Mon Dec 30 22:02:56 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.web.context.support.GenericWebApplicationContext@7188af83: startup date [Mon Dec 30 22:02:56 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Started ProductServiceImplTest in 4.531 seconds (JVM running for 5.06)
-Closing org.springframework.web.context.support.GenericWebApplicationContext@7188af83: startup date [Mon Dec 30 22:02:56 PST 2019]; root of context hierarchy
-Closing JPA EntityManagerFactory for persistence unit 'default'
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:01:49 PST 2019]; root of context hierarchy
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 22:10:42 PST 2020]; root of context hierarchy
 Unregistering JMX-exposed beans on shutdown
 Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 53953 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 65389 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
 No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:03:18 PST 2019]; root of context hierarchy
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 23:27:06 PST 2020]; root of context hierarchy
 HV000001: Hibernate Validator 5.3.5.Final
 No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Multiple Spring Data modules found, entering strict repository configuration mode!
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
 Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
 JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 Tomcat initialized with port(s): 8080 (http)
 Starting service Tomcat
 Starting Servlet Engine: Apache Tomcat/8.5.14
 Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1196 ms
+Root WebApplicationContext: initialization completed in 1252 ms
 Mapping servlet: 'dispatcherServlet' to [/]
 Mapping filter: 'characterEncodingFilter' to: [/*]
 Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
@@ -895,14 +966,16 @@ HHH000021: Bytecode provider name : javassist
 HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
 HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
 Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:03:18 PST 2019]; root of context hierarchy
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 23:27:06 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.VO.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
 Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
 Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
 Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
 Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
 Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:03:18 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 23:27:06 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
 ClassTemplateLoader for Spring macros added to FreeMarker configuration
 Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
 Registering beans for JMX exposure on startup
@@ -910,62 +983,70 @@ Initializing ProtocolHandler ["http-nio-8080"]
 Starting ProtocolHandler ["http-nio-8080"]
 Using a shared selector for servlet write/read
 Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.298 seconds (JVM running for 3.726)
+Started SellApplication in 3.905 seconds (JVM running for 4.509)
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+FrameworkServlet 'dispatcherServlet': initialization started
+FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+HHH000397: Using ASTQueryTranslatorFactory
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Wed Jan 01 23:27:06 PST 2020]; root of context hierarchy
+Unregistering JMX-exposed beans on shutdown
+Closing JPA EntityManagerFactory for persistence unit 'default'
+Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 65434 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
+No active profile set, falling back to default profiles: default
+Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b12b668: startup date [Wed Jan 01 23:42:12 PST 2020]; root of context hierarchy
+HV000001: Hibernate Validator 5.3.5.Final
+No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderDetailRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.OrderMasterRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
+JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Tomcat initialized with port(s): 8080 (http)
+Starting service Tomcat
+Starting Servlet Engine: Apache Tomcat/8.5.14
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1389 ms
+Mapping servlet: 'dispatcherServlet' to [/]
+Mapping filter: 'characterEncodingFilter' to: [/*]
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+Mapping filter: 'requestContextFilter' to: [/*]
+Building JPA container EntityManagerFactory for persistence unit 'default'
+HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+HHH000412: Hibernate Core {5.0.12.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b12b668: startup date [Wed Jan 01 23:42:12 PST 2020]; root of context hierarchy
+Mapped "{[/buyer/order/create],methods=[POST]}" onto public com.imooc.VO.ResultVO<java.util.Map<java.lang.String, java.lang.String>> com.imooc.controller.BuyerOrderController.create(com.imooc.form.OrderForm,org.springframework.validation.BindingResult)
+Mapped "{[/buyer/order/list],methods=[GET]}" onto public com.imooc.VO.ResultVO<java.util.List<com.imooc.dto.OrderDTO>> com.imooc.controller.BuyerOrderController.list(java.lang.String,java.lang.Integer,java.lang.Integer)
+Mapped "{[/buyer/order/cancel],methods=[POST]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerOrderController.cancel(java.lang.String,java.lang.String)
+Mapped "{[/buyer/order/detail],methods=[GET]}" onto public com.imooc.VO.ResultVO<com.imooc.dto.OrderDTO> com.imooc.controller.BuyerOrderController.detail(java.lang.String,java.lang.String)
+Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b12b668: startup date [Wed Jan 01 23:42:12 PST 2020]; root of context hierarchy] and template loader path [classpath:/templates/]
+ClassTemplateLoader for Spring macros added to FreeMarker configuration
+Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+Registering beans for JMX exposure on startup
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting ProtocolHandler ["http-nio-8080"]
+Using a shared selector for servlet write/read
+Tomcat started on port(s): 8080 (http)
+Started SellApplication in 3.875 seconds (JVM running for 4.323)
 Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
 FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
 HHH000397: Using ASTQueryTranslatorFactory
-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:03:18 PST 2019]; root of context hierarchy
+Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5b12b668: startup date [Wed Jan 01 23:42:12 PST 2020]; root of context hierarchy
 Unregistering JMX-exposed beans on shutdown
 Closing JPA EntityManagerFactory for persistence unit 'default'
-Starting SellApplication on zhaohaodeMacBook-Pro.local with PID 54031 (started by zhaohao in /Users/zhaohao/Downloads/git project/WeChatOrderingSystem)
-No active profile set, falling back to default profiles: default
-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:16:21 PST 2019]; root of context hierarchy
-HV000001: Hibernate Validator 5.3.5.Final
-No MyBatis mapper was found in '[com.imooc]' package. Please check your configuration.
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Multiple Spring Data modules found, entering strict repository configuration mode!
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductCategoryRepository.
-Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.imooc.repository.ProductInfoRepository.
-JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-Tomcat initialized with port(s): 8080 (http)
-Starting service Tomcat
-Starting Servlet Engine: Apache Tomcat/8.5.14
-Initializing Spring embedded WebApplicationContext
-Root WebApplicationContext: initialization completed in 1106 ms
-Mapping servlet: 'dispatcherServlet' to [/]
-Mapping filter: 'characterEncodingFilter' to: [/*]
-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
-Mapping filter: 'httpPutFormContentFilter' to: [/*]
-Mapping filter: 'requestContextFilter' to: [/*]
-Building JPA container EntityManagerFactory for persistence unit 'default'
-HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-HHH000412: Hibernate Core {5.0.12.Final}
-HHH000206: hibernate.properties not found
-HHH000021: Bytecode provider name : javassist
-HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
-Initialized JPA EntityManagerFactory for persistence unit 'default'
-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:16:21 PST 2019]; root of context hierarchy
-Mapped "{[/buyer/product/list],methods=[GET]}" onto public com.imooc.VO.ResultVO com.imooc.controller.BuyerProductController.list()
-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@702657cc: startup date [Mon Dec 30 22:16:21 PST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
-ClassTemplateLoader for Spring macros added to FreeMarker configuration
-Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
-Registering beans for JMX exposure on startup
-Initializing ProtocolHandler ["http-nio-8080"]
-Starting ProtocolHandler ["http-nio-8080"]
-Using a shared selector for servlet write/read
-Tomcat started on port(s): 8080 (http)
-Started SellApplication in 3.304 seconds (JVM running for 4.018)
-Initializing Spring FrameworkServlet 'dispatcherServlet'
-FrameworkServlet 'dispatcherServlet': initialization started
-FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
-HHH000397: Using ASTQueryTranslatorFactory
-SQL Error: 0, SQLState: 08S01
