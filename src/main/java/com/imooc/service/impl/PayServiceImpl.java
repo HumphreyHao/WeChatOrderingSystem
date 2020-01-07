@@ -2,7 +2,7 @@ package com.imooc.service.impl;
 
 import com.imooc.dto.OrderDTO;
 import com.imooc.enums.ResultEnum;
-import com.imooc.execption.SellException;
+import com.imooc.exception.SellException;
 import com.imooc.service.OrderService;
 import com.imooc.service.PayService;
 import com.imooc.utils.JsonUtil;

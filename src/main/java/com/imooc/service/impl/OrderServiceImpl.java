@@ -9,10 +9,11 @@ import com.imooc.dto.OrderDTO;
 import com.imooc.enums.OrderStatusEnum;
 import com.imooc.enums.PayStatusEnum;
 import com.imooc.enums.ResultEnum;
-import com.imooc.execption.SellException;
+import com.imooc.exception.SellException;
 import com.imooc.repository.OrderDetailRepository;
 import com.imooc.repository.OrderMasterRepository;
 import com.imooc.service.OrderService;
+import com.imooc.service.PayService;
 import com.imooc.service.ProductService;
 import com.imooc.utils.KeyUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -40,6 +41,9 @@ public class OrderServiceImpl implements OrderService {
 
     @Autowired
     private OrderMasterRepository orderMasterRepository;
+
+    @Autowired
+    private PayService payService;
 
 
     @Override
@@ -79,6 +83,8 @@ public class OrderServiceImpl implements OrderService {
         //3. 写入订单数据库（orderMaster和orderDetail）
         OrderMaster orderMaster = new OrderMaster();
         orderDTO.setOrderId(orderId);
+        //写死openId
+        orderDTO.setBuyerOpenid("oTgZpwZQ6W2U2Od1iYrqN8u3evn0");
         BeanUtils.copyProperties(orderDTO, orderMaster);
         orderMaster.setOrderAmount(orderAmount);
         orderMaster.setOrderStatus(OrderStatusEnum.NEW.getCode());
@@ -159,8 +165,8 @@ public class OrderServiceImpl implements OrderService {
 
         //如果已支付, 需要退款
         if (orderDTO.getPayStatus().equals(PayStatusEnum.SUCCESS.getCode())) {
-            //payService.refund(orderDTO);
-            //TODO
+            payService.refund(orderDTO);
+            
         }
 
         return orderDTO;

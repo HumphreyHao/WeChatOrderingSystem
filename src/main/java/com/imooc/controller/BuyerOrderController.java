@@ -4,7 +4,7 @@ import com.imooc.VO.ResultVO;
 import com.imooc.converter.OrderForm2OrderDTOConverter;
 import com.imooc.dto.OrderDTO;
 import com.imooc.enums.ResultEnum;
-import com.imooc.execption.SellException;
+import com.imooc.exception.SellException;
 import com.imooc.form.OrderForm;
 import com.imooc.service.BuyerService;
 import com.imooc.service.OrderService;
@@ -43,6 +43,7 @@ public class BuyerOrderController {
     //这是表单校验的基本流程，使用form专门用于检验
     public ResultVO<Map<String, String>> create(@Valid OrderForm orderForm,
                                                 BindingResult bindingResult) {
+        ;
         if (bindingResult.hasErrors()) {
             log.error("【创建订单】参数不正确, orderForm={}", orderForm);
             throw new SellException(ResultEnum.PARAM_ERROR.getCode(),

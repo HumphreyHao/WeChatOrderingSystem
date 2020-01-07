@@ -18,4 +18,6 @@ public class WechatAccountConfig {
     private String mchKey;
 
     private String keyPath;
+
+    private String notifyUrl;
 }

@@ -5,7 +5,7 @@ import com.google.gson.reflect.TypeToken;
 import com.imooc.dataobject.OrderDetail;
 import com.imooc.dto.OrderDTO;
 import com.imooc.enums.ResultEnum;
-import com.imooc.execption.SellException;
+import com.imooc.exception.SellException;
 import com.imooc.form.OrderForm;
 import lombok.extern.slf4j.Slf4j;
 

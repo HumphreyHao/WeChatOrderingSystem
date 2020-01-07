@@ -59,8 +59,8 @@ me.chanjar.weixin.common.exception.WxErrorException: {"errcode":40163,"errmsg":"
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
-Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.execption.SellException: code been used, hints: [ req_id: ZccazQaLRa-30aO0a ]] with root cause
-com.imooc.execption.SellException: code been used, hints: [ req_id: ZccazQaLRa-30aO0a ]
+Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.exception.SellException: code been used, hints: [ req_id: ZccazQaLRa-30aO0a ]] with root cause
+com.imooc.exception.SellException: code been used, hints: [ req_id: ZccazQaLRa-30aO0a ]
 	at com.imooc.controller.WechatController.userInfo(WechatController.java:47)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

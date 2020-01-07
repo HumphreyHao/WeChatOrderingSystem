@@ -1,4 +1,4 @@
-package com.imooc.execption;
+package com.imooc.exception;
 
 import com.imooc.enums.ResultEnum;
 import lombok.Getter;

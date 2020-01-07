@@ -4,8 +4,8 @@ Column 'buyer_openid' cannot be null
 【完结订单】订单状态不正确, orderId=1577918173326481477, orderStatus=2
 【订单支付完成】订单状态不正确, orderId=1577918173326481477, orderStatus=1
 【创建订单】参数不正确, orderForm=OrderForm(name=null, phone=null, address=null, openid=null, items=null)
-Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.execption.SellException: openid必填] with root cause
-com.imooc.execption.SellException: openid必填
+Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.exception.SellException: openid必填] with root cause
+com.imooc.exception.SellException: openid必填
 	at com.imooc.controller.BuyerOrderController.create(BuyerOrderController.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -62,8 +62,8 @@ com.imooc.execption.SellException: openid必填
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 【创建订单】参数不正确, orderForm=OrderForm(name=1, phone=18867157072, address=zongbu, openid=ew3euwhd7sjw9diwkq, items=)
-Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.execption.SellException: 购物车不能为空] with root cause
-com.imooc.execption.SellException: 购物车不能为空
+Servlet.service() for servlet [dispatcherServlet] in context with path [/sell] threw exception [Request processing failed; nested exception is com.imooc.exception.SellException: 购物车不能为空] with root cause
+com.imooc.exception.SellException: 购物车不能为空
 	at com.imooc.controller.BuyerOrderController.create(BuyerOrderController.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

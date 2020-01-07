@@ -24,8 +24,14 @@ server:
 
 wechat:
 #  openid:oTgZpwZQ6W2U2Od1iYrqN8u3evn0
+#  http://proxy.springboot.cn/pay?openid=oTgZpwZQ6W2U2Od1iYrqN8u3evn0&orderId=1577943013267524439&returnUrl=humphreyhao.natapp1.cc
+  ##自己的：wxc41c02d541cd07b5
+  #secret：d14e18bddf1c7092c06bae4dad39ea37
+  #老师的:mpAppId: wxd898fcb01713c658
+  #mpAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
   mpAppId: wxd898fcb01713c658
   mpAppSecret: 91a2ff6d38a2bbccfb7e9f9079108e2e
   mchId: 1483469312
   mchKey: 098F6BCD4621D373CADE4E832627B4F6
   keyPath: /Users/zhaohao/Downloads/git project/WeChatOrderingSystem/path/h5.p12
+  notifyUrl: http://humphreyhao.natapp1.cc/sell/pay/notify
