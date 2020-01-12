@@ -28,8 +28,8 @@ public interface ProductService {
 
 
     //上架
-    //ProductInfo onSale(String productId);
+    ProductInfo onSale(String productId);
 
     //下架
-    //ProductInfo offSale(String productId);
+    ProductInfo offSale(String productId);
 }
