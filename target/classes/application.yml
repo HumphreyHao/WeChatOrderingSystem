@@ -48,3 +48,8 @@ projectUrl:
   wechatMpAuthorize: http://humphreyhao.natapp1.cc
   wechatOpenAuthorize: http://humphreyhao.natapp1.cc
   sell: http://humphreyhao.natapp1.cc
+logging:
+  level:
+    com.imooc.dataobject.mapper: trace
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
